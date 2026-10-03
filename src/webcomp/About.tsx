@@ -1,0 +1,1 @@
+export default function About() { return <section id="about" className="section"><div className="page-width about-layout"><div><h2>About</h2></div><p>Computer Engineering student with hands-on experience building machine learning systems from first principles — autograd engines, RAG pipelines, LLM agents — and shipping full-stack AI applications.</p></div></section> }

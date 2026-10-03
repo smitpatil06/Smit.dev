@@ -1,0 +1,1 @@
+export default function Languages() { return <section id="languages" className="section section-quiet"><div className="page-width short-section"><h2>Languages Spoken</h2><p>English, Hindi, Marathi</p></div></section> }
