@@ -6,8 +6,6 @@ import Projects from './webcomp/Projects'
 import Skills from './webcomp/Skills'
 import Hobbies from './webcomp/hobbies'
 import Education from './webcomp/Education'
-import Languages from './webcomp/Languages'
-import Contact from './webcomp/Contact'
 import Footer from './webcomp/Footer'
 import './App.css'
 
@@ -25,7 +23,7 @@ function App() {
   return <div className="site-shell" data-opening={opening ? 'true' : 'false'}>
     {opening ? <div className="opening-mark" aria-hidden="true">smit.dev</div> : null}
     <Nav theme={theme} onThemeToggle={() => setTheme((current) => current === 'dark' ? 'light' : 'dark')} />
-    <main><Info /><About /><Projects /><Skills /><Hobbies /><Education /><Languages /><Contact /></main><Footer />
+    <main><Info /><About /><Projects /><Skills /><Hobbies /><Education /></main><Footer />
   </div>
 }
 export default App
